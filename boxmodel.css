@@ -1,0 +1,168 @@
+body {
+    background-color:lightgray;
+}
+header {
+    background-color: lemonchiffon
+}
+nav {
+    background-color: rgb(4, 253, 149)
+}
+#intro {
+    background-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.main-section-content h2 {
+    background-color:crimson;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 5px;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+#bestsellers
+footer {
+    background-color: lightyellow;
+}
+
+header, 
+nav,
+#intro,
+.main-section-content h2,
+#bestsellers,
+footer {
+    border: 1px solid black;
+}
+header,
+nav,
+#main-section{
+    border-radius: 10px;
+}
+h1 {
+
+    color: white;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px;
+}
+h2,
+p {
+    color: darkseagreen;
+}
+table,
+th,
+td {
+    border: 1px solid black;
+}
+tr:last-child {
+    background-color: lightgoldenrodyellow;
+}
+span {
+    color: darkred;
+}
+.teacher-info {
+    background-color: lightgray;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+button {
+    background-color: lightcoral;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+ul {
+    list-style-type: none;
+}
+li a {
+    text-decoration: none;
+    color: burlywood;
+}
+li a:hover {
+
+    color: red;
+
+}
+
+p {
+
+    font-size: 18px;
+
+}
+
+h3 {
+
+    font-size: 20px;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    text-decoration: underline;
+
+}
+
+/*third lesson*/
+
+nav li {
+
+    margin: 10px;
+
+    padding: 5px;
+
+    border: 1px solid;
+
+    border-radius: 5px;
+
+}
+
+.teacher-info div:last-child {
+
+    margin-left: 50px;
+
+}
+
+.main-section-content {
+
+    padding: 20px;
+
+}
+
+table {
+
+    margin: auto;
+
+}
+
+th,
+
+td {
+
+    padding: 10px;
+
+}
+
+footer {
+
+    padding: 20px;
+
+}
+
+#bestsellers h2 {
+
+    padding: 20px;
+
+}
+
+ol li {
+
+    margin-bottom: 20px;
+
+}
