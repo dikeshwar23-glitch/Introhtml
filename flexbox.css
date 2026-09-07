@@ -1,0 +1,94 @@
+    body {
+    background-color: white;
+}
+header {
+    background-color: brown;
+    display: flex;
+    justify-content : space-between;
+    align-items :center;
+}
+nav {
+    background-color: crimson;
+    display: flex;
+    overflow: hidden;
+    justify-content: space-between;
+    z-index: 2;
+}
+#intro {
+    background-color: lightpink;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.main-section-content {
+    background-color: darkkhaki;
+    font-family: Arial, sans-serif;
+    padding: 5px;
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+#best-sellers,
+footer {
+    background-color: lightyellow;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  
+}
+header,
+nav,
+#intro,
+.main-section-content,
+#best-sellers,
+footer {
+    border: 1px solid black;
+}
+header,
+nav,
+.main-section {
+    border-radius: 10px;
+}
+h1{
+    color: white;
+    font-size: 50px;
+    font-family: Arial, sans-serif;
+    margin: 30px;
+}
+h2,
+p {
+    color: lightseagreen;
+}
+table,
+th,
+td {
+    border: 1px solid black;
+}
+tr:last-child {
+   color: red;
+}
+span {
+    color: blue;
+}
+footer p:first-child span {
+    color: red;
+}
+.teacher-info {
+    border-radius: 10px;
+    margin: 10px;
+    width: 400px;
+    box-shadow: 6px 6px 6px 6px lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button {
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
