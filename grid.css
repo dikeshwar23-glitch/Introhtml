@@ -1,0 +1,213 @@
+body {
+    background-color: #f0f0f0;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+}
+nav {
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+#intro {
+    background-color: #555;
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.main-section-content h2 {
+    background-color: darkkhaki;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#best-sellers
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    
+}
+header,
+nav,
+#intro,
+#main-section-content,
+#best-sellers,
+footer {
+   border: solid 1px black;
+}
+header,
+nav,
+#main-section-content,
+#best-sellers,
+footer {
+    border-radius: 10px;
+}
+
+h1{
+    color: white;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 30px;
+}
+h2,
+p {
+   color: whitesmoke;
+
+}
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+}
+last-child {
+    border: 1px solid black;
+} 
+span {
+    color: white;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+footer p:first-child span  {
+  color:red
+}
+.teacher-info{
+    border-radius: 10px;
+    margin: 10px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+button {
+  background-color: red;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding:5px 
+
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+li a:hover {
+    background-color: #f80101;
+}
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+.teacher-info div:last-child {
+    margin-left: 10px;
+}
+.main-section-content{
+    padding:20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+footer p {
+    margin: 0;
+    padding: 5px;
+}
+#best-sellers {
+    padding: 20px;
+}
+ol li {
+    margin-bottom: 10px;
+}
+#book-reviews p ,
+#book-reviews h3 {
+    margin-bottom: 10px;
+    position: relative;
+
+}
+#videos div {
+    padding: 20px;
+}
+#teacher-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+header {
+    margin: 0;
+    font-size: 36px;
+}
+nav {
+    margin: 0;
+    font-size: 24px;
+}
+#intro {
+    margin: 0;
+    font-size: 24px;
+}
+#main-section-content {
+    margin: 0;
+    font-size: 24px;
+}
+#best-sellers {
+    margin: 0;
+    font-size: 24px;
+}
+footer {
+    grid-area: footer;
+}
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "nav nav"
+        "intro intro"
+        "main main"
+        "best best"
+        "footer footer";
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+
+
